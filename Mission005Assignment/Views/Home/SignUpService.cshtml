@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Sign Up for Tutoring";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Sign up to learn more about formula 1 from Daniel.</p>
+
+<h2>Calculate Your Total Cost</h2>
+
+<label for="hours">Hours Needed:</label>
+<input type="number" id="hours" min="0" step="1" placeholder="Enter hours">
+
+<br>
+
+<label for="rate">Hourly Rate: $</label>
+<input type="text" id="rate" value="25" readonly> <!-- Example rate -->
+
+<br>
+
+<button id="calculate">Calculate Total</button>
+    
+<h3>Total Cost:</h3><input type="text" id="total-input" value="" readonly>
+<br>
+
+<script>
+        
+</script>
